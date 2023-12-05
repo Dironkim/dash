@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="file_action" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="646eeda9-32c5-4f59-8dd1-8efc9e4f3d2a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/DashCommands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/PublicWorkingDirectory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/command/Contents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/command/CreateChildDirectory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/command/DeleteSubDirectories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/command/DisplayChildrenWithExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/command/DisplayContents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/command/GoToChild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/command/GoToParent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/command/HasChildNamed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/command/Help.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/command/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/command/SearchRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/command/WorkingDirectory.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2Vve4raM7TzynWyAqVTn6kOrkMr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/дз/java/Lab2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "onboarding.tips.debug.path": "D:/дз/java/Lab2/src/Main.java",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="command" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="646eeda9-32c5-4f59-8dd1-8efc9e4f3d2a" name="Changes" comment="" />
+      <created>1695720793573</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695720793573</updated>
+      <workItem from="1695720794661" duration="4878000" />
+      <workItem from="1695725854684" duration="110000" />
+      <workItem from="1695725974571" duration="7116000" />
+      <workItem from="1695901967857" duration="1217000" />
+      <workItem from="1696776921294" duration="2898000" />
+      <workItem from="1696928957056" duration="4803000" />
+      <workItem from="1696933883976" duration="749000" />
+      <workItem from="1696934678944" duration="1481000" />
+      <workItem from="1696936187000" duration="2174000" />
+      <workItem from="1696938434458" duration="4539000" />
+      <workItem from="1697446076836" duration="1565000" />
+      <workItem from="1697886793496" duration="6548000" />
+      <workItem from="1698663357435" duration="752000" />
+      <workItem from="1699281528462" duration="1398000" />
+      <workItem from="1701678030614" duration="3483000" />
+      <workItem from="1701767016814" duration="1126000" />
+      <workItem from="1701769466625" duration="135000" />
+      <workItem from="1701769640000" duration="2114000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
