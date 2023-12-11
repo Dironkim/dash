@@ -1,4 +1,4 @@
-package main.command;
+package command;
 
 public class GoToChild extends Command {
     public GoToChild(String directoryName) {
@@ -7,7 +7,7 @@ public class GoToChild extends Command {
     public void Execute(String ChildName){
         if (instance.hasChildNamed(ChildName)){
             instance = new WorkingDirectory(this.directoryName + "\\" + ChildName);
-            System.out.println("Current directory: "+this.directoryName);
+            System.out.println("Current directory: "+instance.directoryName);
         }
         else System.out.println("Could not find the directory");
     }

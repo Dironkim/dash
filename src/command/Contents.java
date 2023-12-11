@@ -1,4 +1,4 @@
-package main.command;
+package command;
 
 public class Contents extends Command {
     public Contents(String directoryName) {

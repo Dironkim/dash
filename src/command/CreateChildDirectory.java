@@ -1,4 +1,4 @@
-package main.command;
+package command;
 
 public class CreateChildDirectory extends Command {
     public CreateChildDirectory(String directoryName) {

@@ -1,12 +1,36 @@
-package main.command;
+package command;
 
 import java.io.*;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 public class WorkingDirectory {
     private static WorkingDirectory instance;
-    private final String directoryName;
+    public final String directoryName;
     public WorkingDirectory(String directoryName) {
         this.directoryName = directoryName;
+        saveDirectoryNameToFile();
+    }
+    private void saveDirectoryNameToFile() {
+        try {
+            // Получение пути к JAR-файлу
+            String jarPath = WorkingDirectory.class.getProtectionDomain().getCodeSource().getLocation().getPath();
+
+            // Преобразование в объект Path и получение родительской директории
+            //Path jarDirectory = Paths.get(jarPath).getParent();
+            String jarDirectory = System.getProperty("user.dir");
+            // Файл "working_directory.txt" в директории JAR-файла
+            File configFile = new File(jarDirectory, "working_directory.txt");
+
+            // Запись текущего пути в файл
+            try (PrintWriter writer = new PrintWriter(new FileWriter(configFile))) {
+                writer.println(directoryName);
+                //System.out.println("Текущий путь сохранен в файл: " + configFile.getAbsolutePath());
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println("Ошибка при сохранении текущего пути в файл.");
+        }
     }
     public static WorkingDirectory getInstance(String directoryName) {
         if (instance == null) {

@@ -1,6 +1,4 @@
-package main;
-
-import main.command.*;
+import command.*;
 
 import java.util.AbstractMap;
 import java.util.Arrays;

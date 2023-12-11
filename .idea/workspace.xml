@@ -2,36 +2,34 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="file_action" />
+      <artifact name="file_action:jar" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="646eeda9-32c5-4f59-8dd1-8efc9e4f3d2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/DashCommands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/PublicWorkingDirectory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/command/Contents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/command/CreateChildDirectory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/command/DeleteSubDirectories.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/command/DisplayChildrenWithExtension.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/command/DisplayContents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/command/GoToChild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/command/GoToParent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/command/HasChildNamed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/command/Help.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/command/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/command/SearchRecursive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/command/WorkingDirectory.java" afterDir="false" />
+    <list default="true" id="646eeda9-32c5-4f59-8dd1-8efc9e4f3d2a" name="Changes" comment="no description">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/file_action_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/file_action.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/DashCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DashCommands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Launch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/PublicWorkingDirectory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PublicWorkingDirectory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/command/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/command/Contents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/command/Contents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/command/CreateChildDirectory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/command/CreateChildDirectory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/command/DeleteSubDirectories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/command/DeleteSubDirectories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/command/DisplayChildrenWithExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/command/DisplayChildrenWithExtension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/command/DisplayContents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/command/DisplayContents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/command/GoToChild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/command/GoToChild.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/command/GoToParent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/command/GoToParent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/command/HasChildNamed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/command/HasChildNamed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/command/Help.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/command/Help.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/command/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/command/Parent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/command/SearchRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/command/SearchRecursive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/command/WorkingDirectory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/command/WorkingDirectory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,28 +58,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/дз/java/Lab2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "D:/дз/java/Lab2/src/Main.java",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/дз/java/Lab2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/дз/java/Lab2/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="command" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.Launch">
+    <configuration name="Launch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Launch" />
+      <module name="Lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab2.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/Lab2_jar/Lab2.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="file_action.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/file_action/file_action.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Launch" />
+        <item itemvalue="JAR Application.Lab2.jar" />
+        <item itemvalue="JAR Application.file_action.jar" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -108,11 +139,40 @@
       <workItem from="1701678030614" duration="3483000" />
       <workItem from="1701767016814" duration="1126000" />
       <workItem from="1701769466625" duration="135000" />
-      <workItem from="1701769640000" duration="2114000" />
+      <workItem from="1701769640000" duration="3020000" />
+      <workItem from="1701772715196" duration="674000" />
+      <workItem from="1701773408286" duration="264000" />
+      <workItem from="1701773712559" duration="6886000" />
+      <workItem from="1701876353948" duration="319000" />
+      <workItem from="1702299149836" duration="506000" />
     </task>
+    <task id="LOCAL-00001" summary="no description">
+      <option name="closed" value="true" />
+      <created>1701771880771</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701771880771</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="no description" />
+    <option name="LAST_COMMIT_MESSAGE" value="no description" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Launch.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

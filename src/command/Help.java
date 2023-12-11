@@ -1,4 +1,4 @@
-package main.command;
+package command;
 
 public class Help extends Command {
     public Help(String directoryName) {

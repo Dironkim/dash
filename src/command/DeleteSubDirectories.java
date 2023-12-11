@@ -1,4 +1,4 @@
-package main.command;
+package command;
 
 import java.io.File;
 

@@ -1,6 +1,4 @@
-package main;
-
-import main.command.WorkingDirectory;
+import command.WorkingDirectory;
 
 import java.io.File;
 

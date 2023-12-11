@@ -1,4 +1,4 @@
-package main.command;
+package command;
 
 public class Parent extends Command {
     public Parent(String directoryName) {

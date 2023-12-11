@@ -1,4 +1,4 @@
-package main.command;
+package command;
 
 public class Command {
     protected static WorkingDirectory instance;

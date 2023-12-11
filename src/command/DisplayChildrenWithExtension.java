@@ -1,4 +1,4 @@
-package main.command;
+package command;
 
 public class DisplayChildrenWithExtension extends Command {
     public DisplayChildrenWithExtension(String directoryName) {

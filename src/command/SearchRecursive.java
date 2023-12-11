@@ -1,4 +1,4 @@
-package main.command;
+package command;
 
 public class SearchRecursive extends Command {
     public SearchRecursive(String directoryName) {

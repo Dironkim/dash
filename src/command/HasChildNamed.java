@@ -1,4 +1,4 @@
-package main.command;
+package command;
 
 public class HasChildNamed extends Command {
     public HasChildNamed(String directoryName) {
